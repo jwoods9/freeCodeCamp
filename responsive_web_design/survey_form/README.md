@@ -18,13 +18,26 @@ Build an app that is functionally similar to https://survey-form.freecodecamp.ro
     6. If you enter an email that is not formatted correctly, you will see an HTML5 validation error.
         complete
     7. Inside the form, you can enter a number in an input field that has an id of number.
+        complete
     8. The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser). 
+        complete
     9. If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error. 
+        complete
     10. For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label."
+        complete
+
     11. For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field.
+        complete
+
     12. Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from.
+        complete
+
     13. Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute.
+        complete
+
     14. Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute.
+        complete
+
     15. Inside the form element, you are presented with a textarea for additional comments.
     16. Inside the form element, you are presented with a button with id of submit to submit all the inputs.
 

@@ -3,18 +3,47 @@
     <head>
        <meta charset="utf-8" >
        <meta rel="stylesheet" href="style.css">
-       <title>Survey Form</title>
+       <title>Olson Lab Survey</title>
     </hdsead>
     <body>
-        <h1 id="title">This is my awesome survey title!</h1>
-        <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, officiis corporis. Rerum quas suscipit officiis, ipsam illum veniam asperiores quos provident nostrum, reprehenderit commodi! Repellat, asperiores? Doloremque sunt possimus alias.</p>
+        <h1 id="title">The Olson Lab Rotation Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the
+            experience of our rotation students.
+        </p>
         <form id="survey-form">
             <fieldset>
-                <label for="name">Name <input id="name" type="text"></label>
-                <label for="email">Email <input id="email" type="email"></label>
+                <label for="name" id="name-label">Name <input id="name" type="text" placeholder="John Doe"></label>
+                <label for="email" id="email-label">Email <input id="email" type="email" placeholder="John-Doe@domain.com"></label>
+                <label for="number" id="number-label">Rotation Number <input id="number" type="number" min="1" max="10" value="1"></label>
             </fieldset>
-            <fieldset></fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label for="dropdown">Which best describes your highest degree earned?</label>
+                <select name="highest-degree" id="dropdown">
+                    <option value="bs">Bachelor of Science</option>
+                    <option value="ba">Bachelor of Arts</option>
+                    <option value="masters">Master's</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Would you recommend the Olson lab to another graduate student?</legend>
+                <input type="radio" id="yes" name="recommendation" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="recommendation" value="no">
+                <label for="no">No</label>
+                <input type="radio" id="no-answer" name="recommendation" value="n/a">
+                <label for="no-answer">Prefer not to answer</label>
+            </fieldset>
+            <fieldset>
+                <legend>What would you like to see improved?</legend>
+                <input type="checkbox" id="suggestion1" value="positivity">
+                <label for="suggestion1">The environment could be more positive</label>
+                <input type="checkbox" id="suggestion2" value="outings">
+                <label for="suggestion2">More lab outings/lunches</label>
+                <input type="checkbox" id="suggestion3" value="computer">
+                <label for="suggestion3">The lab could provide a computer</label>
+                <input type="checkbox" id="suggestion4" value="nothing" checked>
+                <label for="suggestion4">Nothing, it was great!!</label>
+            </fieldset>
 
         </form>
 
