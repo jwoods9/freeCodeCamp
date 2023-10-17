@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    width: auto;
+}
+
+form {
+    border: 2px solid black;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+fieldset {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    width: 50%;
+    border: 0;
+}
+
+label {
+    display: block;
+}
+
+.field-1 input {
+    display: block;
+}

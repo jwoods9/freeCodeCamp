@@ -39,7 +39,10 @@ Build an app that is functionally similar to https://survey-form.freecodecamp.ro
         complete
 
     15. Inside the form element, you are presented with a textarea for additional comments.
+        complete
+
     16. Inside the form element, you are presented with a button with id of submit to submit all the inputs.
+        complete
 
     Fulfill the user stories and pass all the tests, as per https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form, to complete this project. Give it your own personal style. Happy Coding!
 
